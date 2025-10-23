@@ -3095,7 +3095,7 @@ var categories = [
   { id: "partners", name: "partners", label: "Partners", order: 8, blocks: [], enabled: true },
   { id: "testimonials", name: "testimonials", label: "Testimonials", order: 9, blocks: [], enabled: true }
 ];
-categories.forEach((cat) => render.categoryRegistry.registerCategory(cat));
+var blocksRegistered = false;
 function registerBlock(component, metadata, schema) {
   const blockId = metadata.name.toLowerCase().replace(/\s+/g, "-");
   render.categoryRegistry.registerBlock(metadata.category, {
@@ -3109,32 +3109,41 @@ function registerBlock(component, metadata, schema) {
     tags: metadata.tags
   });
 }
-registerBlock(HeroSimple, metadata_default);
-registerBlock(HeroModern, metadata_default2);
-registerBlock(HeroSlider, metadata_default3);
-registerBlock(HeroVideo, metadata_default4);
-registerBlock(HeaderModerne, metadata_default5);
-registerBlock(HeaderMinimaliste, metadata_default6);
-registerBlock(HeaderComplet, metadata_default7);
-registerBlock(FooterSimple, metadata_default8);
-registerBlock(FooterComplet, metadata_default9);
-registerBlock(FooterCentre, metadata_default10);
-registerBlock(ProductFeatured, metadata_default11);
-registerBlock(ProductShowcase, metadata_default12);
-registerBlock(ProductGrid2Col, metadata_default13);
-registerBlock(ProductGrid3Col, metadata_default14);
-registerBlock(CategoriesGrid, metadata_default15);
-registerBlock(CategoriesList, metadata_default16);
-registerBlock(NewsletterBloc, metadata_default17);
-registerBlock(NewsletterInline, metadata_default18);
-registerBlock(BannerPromo, metadata_default19);
-registerBlock(PartnersGrid, metadata_default20);
-registerBlock(TestimonialsGrid, metadata_default21);
-registerBlock(TestimonialsSlider, metadata_default22);
+function initializeBlocks() {
+  if (blocksRegistered) {
+    return;
+  }
+  categories.forEach((cat) => render.categoryRegistry.registerCategory(cat));
+  registerBlock(HeroSimple, metadata_default);
+  registerBlock(HeroModern, metadata_default2);
+  registerBlock(HeroSlider, metadata_default3);
+  registerBlock(HeroVideo, metadata_default4);
+  registerBlock(HeaderModerne, metadata_default5);
+  registerBlock(HeaderMinimaliste, metadata_default6);
+  registerBlock(HeaderComplet, metadata_default7);
+  registerBlock(FooterSimple, metadata_default8);
+  registerBlock(FooterComplet, metadata_default9);
+  registerBlock(FooterCentre, metadata_default10);
+  registerBlock(ProductFeatured, metadata_default11);
+  registerBlock(ProductShowcase, metadata_default12);
+  registerBlock(ProductGrid2Col, metadata_default13);
+  registerBlock(ProductGrid3Col, metadata_default14);
+  registerBlock(CategoriesGrid, metadata_default15);
+  registerBlock(CategoriesList, metadata_default16);
+  registerBlock(NewsletterBloc, metadata_default17);
+  registerBlock(NewsletterInline, metadata_default18);
+  registerBlock(BannerPromo, metadata_default19);
+  registerBlock(PartnersGrid, metadata_default20);
+  registerBlock(TestimonialsGrid, metadata_default21);
+  registerBlock(TestimonialsSlider, metadata_default22);
+  blocksRegistered = true;
+}
+initializeBlocks();
 
 Object.defineProperty(exports, "categoryRegistry", {
   enumerable: true,
   get: function () { return render.categoryRegistry; }
 });
+exports.initializeBlocks = initializeBlocks;
 //# sourceMappingURL=auto-register.js.map
 //# sourceMappingURL=auto-register.js.map

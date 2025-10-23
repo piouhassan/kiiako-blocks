@@ -117,8 +117,8 @@ const categories = [
   { id: 'testimonials', name: 'testimonials', label: 'Testimonials', order: 9, blocks: [], enabled: true },
 ];
 
-// Register all categories
-categories.forEach((cat) => categoryRegistry.registerCategory(cat));
+// Track if blocks have been registered
+let blocksRegistered = false;
 
 // Helper function to register a block
 function registerBlock(component: any, metadata: any, schema: any) {
@@ -136,38 +136,56 @@ function registerBlock(component: any, metadata: any, schema: any) {
   });
 }
 
-// Register all blocks with schemas
-registerBlock(HeroSimple, heroSimpleMeta, heroSimpleSchema);
-registerBlock(HeroModern, heroModernMeta, heroModernSchema);
-registerBlock(HeroSlider, heroSliderMeta, heroSliderSchema);
-registerBlock(HeroVideo, heroVideoMeta, heroVideoSchema);
+/**
+ * Initialize and register all blocks
+ * This function is idempotent - safe to call multiple times
+ */
+export function initializeBlocks() {
+  if (blocksRegistered) {
+    return;
+  }
 
-registerBlock(HeaderModerne, headerModerneMeta, headerModerneSchema);
-registerBlock(HeaderMinimaliste, headerMinimalisteMeta, headerMinimalisteSchema);
-registerBlock(HeaderComplet, headerCompletMeta, headerCompletSchema);
+  // Register all categories
+  categories.forEach((cat) => categoryRegistry.registerCategory(cat));
 
-registerBlock(FooterSimple, footerSimpleMeta, footerSimpleSchema);
-registerBlock(FooterComplet, footerCompletMeta, footerCompletSchema);
-registerBlock(FooterCentre, footerCentreMeta, footerCentreSchema);
+  // Register all blocks with schemas
+  registerBlock(HeroSimple, heroSimpleMeta, heroSimpleSchema);
+  registerBlock(HeroModern, heroModernMeta, heroModernSchema);
+  registerBlock(HeroSlider, heroSliderMeta, heroSliderSchema);
+  registerBlock(HeroVideo, heroVideoMeta, heroVideoSchema);
 
-registerBlock(ProductFeatured, productFeaturedMeta, productFeaturedSchema);
-registerBlock(ProductShowcase, productShowcaseMeta, productShowcaseSchema);
+  registerBlock(HeaderModerne, headerModerneMeta, headerModerneSchema);
+  registerBlock(HeaderMinimaliste, headerMinimalisteMeta, headerMinimalisteSchema);
+  registerBlock(HeaderComplet, headerCompletMeta, headerCompletSchema);
 
-registerBlock(ProductGrid2Col, productGrid2ColMeta, productGrid2ColSchema);
-registerBlock(ProductGrid3Col, productGrid3ColMeta, productGrid3ColSchema);
+  registerBlock(FooterSimple, footerSimpleMeta, footerSimpleSchema);
+  registerBlock(FooterComplet, footerCompletMeta, footerCompletSchema);
+  registerBlock(FooterCentre, footerCentreMeta, footerCentreSchema);
 
-registerBlock(CategoriesGrid, categoriesGridMeta, categoriesGridSchema);
-registerBlock(CategoriesList, categoriesListMeta, categoriesListSchema);
+  registerBlock(ProductFeatured, productFeaturedMeta, productFeaturedSchema);
+  registerBlock(ProductShowcase, productShowcaseMeta, productShowcaseSchema);
 
-registerBlock(NewsletterBloc, newsletterBlocMeta, newsletterBlocSchema);
-registerBlock(NewsletterInline, newsletterInlineMeta, newsletterInlineSchema);
+  registerBlock(ProductGrid2Col, productGrid2ColMeta, productGrid2ColSchema);
+  registerBlock(ProductGrid3Col, productGrid3ColMeta, productGrid3ColSchema);
 
-registerBlock(BannerPromo, bannerPromoMeta, bannerPromoSchema);
+  registerBlock(CategoriesGrid, categoriesGridMeta, categoriesGridSchema);
+  registerBlock(CategoriesList, categoriesListMeta, categoriesListSchema);
 
-registerBlock(PartnersGrid, partnersGridMeta, partnersGridSchema);
+  registerBlock(NewsletterBloc, newsletterBlocMeta, newsletterBlocSchema);
+  registerBlock(NewsletterInline, newsletterInlineMeta, newsletterInlineSchema);
 
-registerBlock(TestimonialsGrid, testimonialsGridMeta, testimonialsGridSchema);
-registerBlock(TestimonialsSlider, testimonialsSliderMeta, testimonialsSliderSchema);
+  registerBlock(BannerPromo, bannerPromoMeta, bannerPromoSchema);
+
+  registerBlock(PartnersGrid, partnersGridMeta, partnersGridSchema);
+
+  registerBlock(TestimonialsGrid, testimonialsGridMeta, testimonialsGridSchema);
+  registerBlock(TestimonialsSlider, testimonialsSliderMeta, testimonialsSliderSchema);
+
+  blocksRegistered = true;
+}
+
+// Auto-initialize on module import
+initializeBlocks();
 
 // Export categoryRegistry for direct use if needed
 export { categoryRegistry };

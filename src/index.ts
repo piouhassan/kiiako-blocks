@@ -6,6 +6,10 @@
  * 1. Auto-register all blocks (recommended for stores):
  *    import '@kiiako/blocks/auto-register';
  *
+ *    Or call explicitly:
+ *    import { initializeBlocks } from '@kiiako/blocks/auto-register';
+ *    initializeBlocks();
+ *
  * 2. Import individual blocks:
  *    import { HeroSimple, HeroModern } from '@kiiako/blocks';
  */
