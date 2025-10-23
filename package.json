@@ -20,6 +20,10 @@
   "files": [
     "dist"
   ],
+  "sideEffects": [
+    "./dist/auto-register.js",
+    "./dist/auto-register.mjs"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
