@@ -43,7 +43,7 @@ export const BannerPromo: React.FC<BannerPromoProps> = ({
       className="relative py-12 px-6 overflow-hidden"
       style={{
         backgroundColor,
-        backgroundImage: backgroundImage ? `url(${import.meta.env.VITE_API+backgroundImage})` : undefined,
+        backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

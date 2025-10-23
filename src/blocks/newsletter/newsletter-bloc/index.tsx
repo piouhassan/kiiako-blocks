@@ -15,7 +15,7 @@ export const NewsletterBloc: React.FC<NewsletterBlocProps> = ({
   layout,
   buttonVariant,
 }) => {
-  const buttonVariantClasses = {
+  const buttonVariantClasses: Record<'white' | 'dark' | 'outline', string> = {
     white: 'bg-white text-gray-900 hover:bg-gray-100',
     dark: 'bg-gray-900 text-white hover:bg-gray-800',
     outline: 'border-2 border-white bg-transparent text-white hover:bg-white hover:text-gray-900',

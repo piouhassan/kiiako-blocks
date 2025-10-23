@@ -8,100 +8,100 @@ import { categoryRegistry } from '@kiiako/render';
 // Hero blocks
 import { HeroSimple } from './blocks/hero/hero-simple';
 import heroSimpleMeta from './blocks/hero/hero-simple/metadata.json';
-import heroSimpleSchema from './blocks/hero/hero-simple/schema';
+import { heroSimpleSchema } from './blocks/hero/hero-simple/schema';
 
 import { HeroModern } from './blocks/hero/hero-modern';
 import heroModernMeta from './blocks/hero/hero-modern/metadata.json';
-import heroModernSchema from './blocks/hero/hero-modern/schema';
+import { heroModernSchema } from './blocks/hero/hero-modern/schema';
 
 import { HeroSlider } from './blocks/hero/hero-slider';
 import heroSliderMeta from './blocks/hero/hero-slider/metadata.json';
-import heroSliderSchema from './blocks/hero/hero-slider/schema';
+import { heroSliderSchema } from './blocks/hero/hero-slider/schema';
 
 import { HeroVideo } from './blocks/hero/hero-video';
 import heroVideoMeta from './blocks/hero/hero-video/metadata.json';
-import heroVideoSchema from './blocks/hero/hero-video/schema';
+import { heroVideoSchema } from './blocks/hero/hero-video/schema';
 
 // Header blocks
 import { HeaderModerne } from './blocks/header/header-moderne';
 import headerModerneMeta from './blocks/header/header-moderne/metadata.json';
-import headerModerneSchema from './blocks/header/header-moderne/schema';
+import { headerModerneSchema } from './blocks/header/header-moderne/schema';
 
 import { HeaderMinimaliste } from './blocks/header/header-minimaliste';
 import headerMinimalisteMeta from './blocks/header/header-minimaliste/metadata.json';
-import headerMinimalisteSchema from './blocks/header/header-minimaliste/schema';
+import { headerMinimalisteSchema } from './blocks/header/header-minimaliste/schema';
 
 import { HeaderComplet } from './blocks/header/header-complet';
 import headerCompletMeta from './blocks/header/header-complet/metadata.json';
-import headerCompletSchema from './blocks/header/header-complet/schema';
+import { headerCompletSchema } from './blocks/header/header-complet/schema';
 
 // Footer blocks
 import { FooterSimple } from './blocks/footer/footer-simple';
 import footerSimpleMeta from './blocks/footer/footer-simple/metadata.json';
-import footerSimpleSchema from './blocks/footer/footer-simple/schema';
+import { footerSimpleSchema } from './blocks/footer/footer-simple/schema';
 
 import { FooterComplet } from './blocks/footer/footer-complet';
 import footerCompletMeta from './blocks/footer/footer-complet/metadata.json';
-import footerCompletSchema from './blocks/footer/footer-complet/schema';
+import { footerCompletSchema } from './blocks/footer/footer-complet/schema';
 
 import { FooterCentre } from './blocks/footer/footer-centre';
 import footerCentreMeta from './blocks/footer/footer-centre/metadata.json';
-import footerCentreSchema from './blocks/footer/footer-centre/schema';
+import { footerCentreSchema } from './blocks/footer/footer-centre/schema';
 
 // Products blocks
 import { ProductFeatured } from './blocks/products/product-featured';
 import productFeaturedMeta from './blocks/products/product-featured/metadata.json';
-import productFeaturedSchema from './blocks/products/product-featured/schema';
+import { productFeaturedSchema } from './blocks/products/product-featured/schema';
 
 import { ProductShowcase } from './blocks/products/product-showcase';
 import productShowcaseMeta from './blocks/products/product-showcase/metadata.json';
-import productShowcaseSchema from './blocks/products/product-showcase/schema';
+import { productShowcaseSchema } from './blocks/products/product-showcase/schema';
 
 // Product Grid blocks
 import { ProductGrid2Col } from './blocks/product-grid/product-grid-2col';
 import productGrid2ColMeta from './blocks/product-grid/product-grid-2col/metadata.json';
-import productGrid2ColSchema from './blocks/product-grid/product-grid-2col/schema';
+import { productGrid2ColSchema } from './blocks/product-grid/product-grid-2col/schema';
 
 import { ProductGrid3Col } from './blocks/product-grid/product-grid-3col';
 import productGrid3ColMeta from './blocks/product-grid/product-grid-3col/metadata.json';
-import productGrid3ColSchema from './blocks/product-grid/product-grid-3col/schema';
+import { productGrid3ColSchema } from './blocks/product-grid/product-grid-3col/schema';
 
 // Categories blocks
 import { CategoriesGrid } from './blocks/categories/categories-grid';
 import categoriesGridMeta from './blocks/categories/categories-grid/metadata.json';
-import categoriesGridSchema from './blocks/categories/categories-grid/schema';
+import { categoriesGridSchema } from './blocks/categories/categories-grid/schema';
 
 import { CategoriesList } from './blocks/categories/categories-list';
 import categoriesListMeta from './blocks/categories/categories-list/metadata.json';
-import categoriesListSchema from './blocks/categories/categories-list/schema';
+import { categoriesListSchema } from './blocks/categories/categories-list/schema';
 
 // Newsletter blocks
 import { NewsletterBloc } from './blocks/newsletter/newsletter-bloc';
 import newsletterBlocMeta from './blocks/newsletter/newsletter-bloc/metadata.json';
-import newsletterBlocSchema from './blocks/newsletter/newsletter-bloc/schema';
+import { newsletterBlocSchema } from './blocks/newsletter/newsletter-bloc/schema';
 
 import { NewsletterInline } from './blocks/newsletter/newsletter-inline';
 import newsletterInlineMeta from './blocks/newsletter/newsletter-inline/metadata.json';
-import newsletterInlineSchema from './blocks/newsletter/newsletter-inline/schema';
+import { newsletterInlineSchema } from './blocks/newsletter/newsletter-inline/schema';
 
 // Banners blocks
 import { BannerPromo } from './blocks/banners/banner-promo';
 import bannerPromoMeta from './blocks/banners/banner-promo/metadata.json';
-import bannerPromoSchema from './blocks/banners/banner-promo/schema';
+import { bannerPromoSchema } from './blocks/banners/banner-promo/schema';
 
 // Partners blocks
 import { PartnersGrid } from './blocks/partners/partners-grid';
 import partnersGridMeta from './blocks/partners/partners-grid/metadata.json';
-import partnersGridSchema from './blocks/partners/partners-grid/schema';
+import { partnersGridSchema } from './blocks/partners/partners-grid/schema';
 
 // Testimonials blocks
 import { TestimonialsGrid } from './blocks/testimonials/testimonials-grid';
 import testimonialsGridMeta from './blocks/testimonials/testimonials-grid/metadata.json';
-import testimonialsGridSchema from './blocks/testimonials/testimonials-grid/schema';
+import { testimonialsGridSchema } from './blocks/testimonials/testimonials-grid/schema';
 
 import { TestimonialsSlider } from './blocks/testimonials/testimonials-slider';
 import testimonialsSliderMeta from './blocks/testimonials/testimonials-slider/metadata.json';
-import testimonialsSliderSchema from './blocks/testimonials/testimonials-slider/schema';
+import { testimonialsSliderSchema } from './blocks/testimonials/testimonials-slider/schema';
 
 // Define categories
 const categories = [
@@ -136,7 +136,7 @@ function registerBlock(component: any, metadata: any, schema: any) {
   });
 }
 
-// Register all blocks
+// Register all blocks with schemas
 registerBlock(HeroSimple, heroSimpleMeta, heroSimpleSchema);
 registerBlock(HeroModern, heroModernMeta, heroModernSchema);
 registerBlock(HeroSlider, heroSliderMeta, heroSliderSchema);

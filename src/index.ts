@@ -52,6 +52,42 @@ export { PartnersGrid } from './blocks/partners/partners-grid';
 export { TestimonialsGrid } from './blocks/testimonials/testimonials-grid';
 export { TestimonialsSlider } from './blocks/testimonials/testimonials-slider';
 
+// Export schemas for validation
+export { heroSimpleSchema } from './blocks/hero/hero-simple/schema';
+export { heroModernSchema } from './blocks/hero/hero-modern/schema';
+export { heroSliderSchema } from './blocks/hero/hero-slider/schema';
+export { heroVideoSchema } from './blocks/hero/hero-video/schema';
+
+export { headerModerneSchema } from './blocks/header/header-moderne/schema';
+export { headerMinimalisteSchema } from './blocks/header/header-minimaliste/schema';
+export { headerCompletSchema } from './blocks/header/header-complet/schema';
+
+export { footerSimpleSchema } from './blocks/footer/footer-simple/schema';
+export { footerCompletSchema } from './blocks/footer/footer-complet/schema';
+export { footerCentreSchema } from './blocks/footer/footer-centre/schema';
+
+export { productFeaturedSchema } from './blocks/products/product-featured/schema';
+export { productShowcaseSchema } from './blocks/products/product-showcase/schema';
+
+export { productGrid2ColSchema } from './blocks/product-grid/product-grid-2col/schema';
+export { productGrid3ColSchema } from './blocks/product-grid/product-grid-3col/schema';
+
+export { categoriesGridSchema } from './blocks/categories/categories-grid/schema';
+export { categoriesListSchema } from './blocks/categories/categories-list/schema';
+
+export { newsletterBlocSchema } from './blocks/newsletter/newsletter-bloc/schema';
+export { newsletterInlineSchema } from './blocks/newsletter/newsletter-inline/schema';
+
+export { bannerPromoSchema } from './blocks/banners/banner-promo/schema';
+
+export { partnersGridSchema } from './blocks/partners/partners-grid/schema';
+
+export { testimonialsGridSchema } from './blocks/testimonials/testimonials-grid/schema';
+export { testimonialsSliderSchema } from './blocks/testimonials/testimonials-slider/schema';
+
+// Export utilities
+export { cn } from './utils/cn';
+
 // Re-export types from @kiiako/render for convenience
 export type {
   BlockInstance,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingCart, User, Search, Menu } from 'lucide-react';
-import { cn } from '../../../lib/cn';
+import { cn } from '../../../utils/cn';
 import type { HeaderCompletProps } from './schema';
 
 export const HeaderComplet: React.FC<HeaderCompletProps> = ({

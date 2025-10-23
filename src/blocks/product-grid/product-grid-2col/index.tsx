@@ -12,7 +12,7 @@ export const ProductGrid2Col: React.FC<ProductGrid2ColProps> = ({
   imageAspectRatio,
   backgroundColor,
 }) => {
-  const aspectRatioClasses = {
+  const aspectRatioClasses: Record<'square' | 'portrait' | 'landscape', string> = {
     square: 'aspect-square',
     portrait: 'aspect-[3/4]',
     landscape: 'aspect-[4/3]',

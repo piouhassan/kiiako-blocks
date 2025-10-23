@@ -1,6 +1,6 @@
 {
   "name": "@kiiako/blocks",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "description": "Pre-built blocks for Kiiako page builder",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "clsx": "^2.1.0",
-    "lucide-react": "^0.263.1"
+    "lucide-react": "^0.263.1",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@kiiako/render": "file:../render",

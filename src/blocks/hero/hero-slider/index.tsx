@@ -39,7 +39,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({
   }
 
   const currentSlide = slides[currentIndex];
-  const alignmentClasses = {
+  const alignmentClasses: Record<'left' | 'center' | 'right', string> = {
     left: 'text-left items-start',
     center: 'text-center items-center',
     right: 'text-right items-end',
@@ -122,7 +122,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({
       {/* Dots */}
       {showDots && slides.length > 1 && (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-          {slides.map((_, index) => (
+          {slides.map((_: any, index : number) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}

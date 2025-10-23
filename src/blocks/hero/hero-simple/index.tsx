@@ -12,7 +12,7 @@ export const HeroSimple: React.FC<HeroSimpleProps> = ({
   textColor = '#ffffff',
   minHeight = '500px',
 }) => {
-  const alignmentClasses = {
+  const alignmentClasses: Record<'left' | 'center' | 'right', string> = {
     left: 'text-left items-start',
     center: 'text-center items-center',
     right: 'text-right items-end',

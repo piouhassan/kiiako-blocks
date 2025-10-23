@@ -17,13 +17,13 @@ export const HeroVideo: React.FC<HeroVideoProps> = ({
                                                       loop,
                                                       muted,
                                                     }) => {
-  const alignmentClasses = {
+  const alignmentClasses: Record<'left' | 'center' | 'right', string> = {
     left: 'text-left items-start',
     center: 'text-center items-center',
     right: 'text-right items-end',
   };
 
-  const buttonVariantClasses = {
+  const buttonVariantClasses: Record<'primary' | 'secondary' | 'outline' | 'ghost', string> = {
     primary: 'bg-blue-600 text-white hover:bg-blue-700',
     secondary: 'bg-gray-600 text-white hover:bg-gray-700',
     outline: 'border-2 border-white text-white hover:bg-white hover:text-gray-900',
