@@ -3,7 +3,7 @@ node_modules
 .pnpm-debug.log
 
 # Build output
-dist
+# dist - IMPORTANT: dist must be committed for GitHub packages
 *.tsbuildinfo
 
 # IDE
