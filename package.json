@@ -2,28 +2,29 @@
   "name": "@kiiako/blocks",
   "version": "1.0.0",
   "description": "Pre-built blocks for Kiiako page builder",
-  "main": "./src/index.ts",
-  "module": "./src/index.ts",
-  "types": "./src/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./src/index.d.ts",
-      "import": "./src/index.ts",
-      "require": "./src/index.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     },
     "./auto-register": {
-      "types": "./src/auto-register.d.ts",
-      "import": "./src/auto-register.ts",
-      "require": "./src/auto-register.ts"
+      "types": "./dist/auto-register.d.ts",
+      "import": "./dist/auto-register.mjs",
+      "require": "./dist/auto-register.js"
     }
   },
   "files": [
-    "src"
+    "dist"
   ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "tsc --noEmit",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
