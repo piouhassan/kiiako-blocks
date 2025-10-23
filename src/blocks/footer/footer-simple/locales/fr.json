@@ -1,0 +1,57 @@
+{
+  "name": "Footer Simple",
+  "description": "Un pied de page simple avec logo, liens et réseaux sociaux",
+  "fields": {
+    "logo": {
+      "label": "Logo",
+      "text": {
+        "label": "Texte du logo",
+        "placeholder": "Nom de votre marque"
+      },
+      "image": {
+        "label": "Image du logo",
+        "placeholder": "URL de l'image"
+      }
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Description de votre entreprise..."
+    },
+    "links": {
+      "label": "Liens rapides",
+      "item": {
+        "label": {
+          "label": "Libellé",
+          "placeholder": "À propos"
+        },
+        "href": {
+          "label": "Lien",
+          "placeholder": "#"
+        }
+      }
+    },
+    "socialLinks": {
+      "label": "Réseaux sociaux",
+      "item": {
+        "platform": {
+          "label": "Plateforme",
+          "placeholder": "Facebook"
+        },
+        "href": {
+          "label": "Lien",
+          "placeholder": "https://facebook.com/..."
+        }
+      }
+    },
+    "copyright": {
+      "label": "Copyright",
+      "placeholder": "© 2024 Votre Entreprise. Tous droits réservés."
+    },
+    "backgroundColor": {
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "label": "Couleur du texte"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Partners Grid",
+  "category": "partners",
+  "type": "section",
+  "description": "Grille de logos de partenaires avec effet grayscale",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["partners", "logos", "sponsors", "brands"],
+  "default_props": {
+    "title": "Trusted by Leading Brands",
+    "subtitle": "We're proud to work with amazing companies around the world",
+    "partners": [
+      {
+        "name": "Apple",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+        "url": "https://www.apple.com"
+      },
+      {
+        "name": "Google",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "url": "https://www.google.com"
+      },
+      {
+        "name": "Microsoft",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "url": "https://www.microsoft.com"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        "url": "https://www.amazon.com"
+      },
+      {
+        "name": "Facebook",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+        "url": "https://www.facebook.com"
+      },
+      {
+        "name": "Netflix",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "url": "https://www.netflix.com"
+      },
+      {
+        "name": "Tesla",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+        "url": "https://www.tesla.com"
+      },
+      {
+        "name": "Nike",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
+        "url": "https://www.nike.com"
+      }
+    ],
+    "backgroundColor": "#f9fafb",
+    "logoGrayscale": true,
+    "columns": 4
+  }
+}

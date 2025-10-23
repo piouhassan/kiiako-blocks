@@ -1,0 +1,42 @@
+{
+  "name": "Hero Slider",
+  "category": "hero",
+  "type": "section",
+  "description": "Hero slider avec plusieurs slides",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["hero", "slider", "banner", "carousel"],
+  "default_props": {
+    "slides": [
+      {
+        "heading": "Welcome to Our Store",
+        "subheading": "Discover amazing products at unbeatable prices",
+        "backgroundImage": "https://images.unsplash.com/photo-1503602642458-232111445657?w=1920&h=1080&fit=crop",
+        "primaryButton": { "text": "Shop Now", "link": "#shop" },
+        "secondaryButton": { "text": "Learn More", "link": "#about" }
+      },
+      {
+        "heading": "Summer Collection",
+        "subheading": "Fresh styles for the season",
+        "backgroundImage": "https://images.unsplash.com/photo-1521335629791-ce4aec67dd2b?w=1920&h=1080&fit=crop",
+        "primaryButton": { "text": "View Collection", "link": "#summer" }
+      },
+      {
+        "heading": "Special Offers",
+        "subheading": "Up to 50% off selected items",
+        "backgroundImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1920&h=1080&fit=crop",
+        "primaryButton": { "text": "Get Deals", "link": "#deals" }
+      }
+    ],
+    "autoplay": true,
+    "autoplayInterval": 5000,
+    "showNavigation": true,
+    "showDots": true,
+    "overlayOpacity": 0.4,
+    "overlayColor": "#000000",
+    "textColor": "#ffffff",
+    "textAlign": "center",
+    "minHeight": "600px"
+  }
+}

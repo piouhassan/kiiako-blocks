@@ -1,0 +1,28 @@
+{
+  "name": "Newsletter Inline",
+  "description": "Formulaire d'inscription newsletter en ligne",
+  "fields": {
+    "title": {
+      "label": "Titre",
+      "placeholder": "Restez informé"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Abonnez-vous à notre newsletter..."
+    },
+    "placeholder": {
+      "label": "Placeholder du champ email",
+      "placeholder": "Votre email"
+    },
+    "buttonText": {
+      "label": "Texte du bouton",
+      "placeholder": "S'abonner"
+    },
+    "backgroundColor": {
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "label": "Couleur du texte"
+    }
+  }
+}

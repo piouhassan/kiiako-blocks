@@ -1,0 +1,9 @@
+{
+  "title": "Titre",
+  "subtitle": "Sous-titre",
+  "products": "Produits",
+  "columns": "Colonnes",
+  "showViewAll": "Afficher le bouton Tout voir",
+  "viewAllText": "Texte Tout voir",
+  "viewAllLink": "Lien Tout voir"
+}

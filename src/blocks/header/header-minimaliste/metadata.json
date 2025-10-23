@@ -1,0 +1,28 @@
+{
+  "name": "Header Minimaliste",
+  "category": "header",
+  "type": "section",
+  "description": "Un en-tête simple avec logo, navigation et bouton CTA",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["header", "navigation", "minimal", "simple"],
+  "default_props": {
+    "logo": {
+      "text": "Brand"
+    },
+    "navigation": [
+      { "label": "Home", "href": "#" },
+      { "label": "Shop", "href": "#" },
+      { "label": "About", "href": "#" },
+      { "label": "Contact", "href": "#" }
+    ],
+    "ctaButton": {
+      "text": "Sign In",
+      "href": "#"
+    },
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000",
+    "sticky": true
+  }
+}

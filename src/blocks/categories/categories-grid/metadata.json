@@ -1,0 +1,49 @@
+{
+  "name": "Categories Grid",
+  "category": "categories",
+  "type": "section",
+  "description": "Grid de catégories responsive avec images",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["categories", "grid", "navigation", "e-commerce"],
+  "default_props": {
+    "title": "Shop by Category",
+    "subtitle": "Explore our wide range of product categories",
+    "categories": [
+      {
+        "name": "Electronics",
+        "description": "Latest tech gadgets and devices",
+        "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3Ryb25pY3N8&ixlib=rb-4.0.3&q=80&w=400",
+        "productCount": 156,
+        "link": "#electronics"
+      },
+      {
+        "name": "Fashion",
+        "description": "Trendy clothing and accessories",
+        "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-4.0.3&q=80&w=400",
+        "productCount": 243,
+        "link": "#fashion"
+      },
+      {
+        "name": "Home & Garden",
+        "description": "Everything for your home",
+        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMGFuZCUyMGdhcmRlbnxlbnwwfHwwfHw%3D&ixlib=rb-4.0.3&q=80&w=400",
+        "productCount": 189,
+        "link": "#home"
+      },
+      {
+        "name": "Sports",
+        "description": "Sports equipment and apparel",
+        "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=400",
+        "productCount": 127,
+        "link": "#sports"
+      }
+    ],
+    "columns": "4",
+    "showProductCount": true,
+    "showDescription": false,
+    "backgroundColor": "#ffffff",
+    "cardStyle": "card"
+  }
+}

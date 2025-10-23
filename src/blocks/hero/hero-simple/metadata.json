@@ -1,0 +1,21 @@
+{
+  "name": "Hero Simple",
+  "category": "hero",
+  "type": "section",
+  "description": "A simple hero section with title, subtitle and CTA button",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["hero", "landing", "cta", "simple"],
+  "default_props": {
+    "title": "Welcome to Our Store",
+    "subtitle": "Build amazing pages with our page builder",
+    "buttonText": "Get Started",
+    "buttonLink": "#",
+    "backgroundImage": "https://images.unsplash.com/photo-1557821552-17105176677c?w=1920&h=1080&fit=crop",
+    "textAlign": "center",
+    "overlayOpacity": 0.4,
+    "textColor": "#ffffff",
+    "minHeight": "500px"
+  }
+}

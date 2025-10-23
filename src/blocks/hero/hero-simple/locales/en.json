@@ -1,0 +1,11 @@
+{
+  "title": "Title",
+  "subtitle": "Subtitle",
+  "buttonText": "Button Text",
+  "buttonLink": "Button Link",
+  "backgroundImage": "Background Image",
+  "textAlign": "Text Alignment",
+  "overlayOpacity": "Overlay Opacity",
+  "textColor": "Text Color",
+  "minHeight": "Minimum Height"
+}

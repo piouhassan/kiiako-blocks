@@ -1,0 +1,14 @@
+{
+  "title": "Title",
+  "subtitle": "Subtitle",
+  "description": "Description",
+  "ctaText": "Button Text",
+  "ctaLink": "Button Link",
+  "backgroundColor": "Background Color",
+  "textColor": "Text Color",
+  "badgeText": "Badge Text",
+  "badgeColor": "Badge Color",
+  "decorated": "Decorated",
+  "showCountdown": "Show Countdown",
+  "countdownEndDate": "Countdown End Date"
+}

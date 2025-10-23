@@ -1,0 +1,29 @@
+{
+  "name": "Header Moderne",
+  "category": "header",
+  "type": "section",
+  "description": "Header moderne avec recherche et icônes",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["header", "navigation", "modern", "search"],
+  "default_props": {
+    "logo" : "https://kiiako.io/logo.png",
+    "siteName": "ModernShop",
+    "navigation": [
+      { "label": "Shop", "url": "#shop" },
+      { "label": "Collections", "url": "#collections" },
+      { "label": "About", "url": "#about" },
+      { "label": "Contact", "url": "#contact" }
+    ],
+    "showSearch": true,
+    "searchPlaceholder": "Search products...",
+    "primaryCta": {
+      "text": "Sign In",
+      "url": "#signin"
+    },
+    "backgroundColor": "#ffffff",
+    "textColor": "#1f2937",
+    "sticky": true
+  }
+}

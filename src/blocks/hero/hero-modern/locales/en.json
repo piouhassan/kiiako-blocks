@@ -1,0 +1,14 @@
+{
+  "badge": "Badge",
+  "title": "Title",
+  "subtitle": "Subtitle",
+  "description": "Description",
+  "primaryCta": "Primary Button",
+  "secondaryCta": "Secondary Button",
+  "heroImage": "Hero Image",
+  "features": "Features",
+  "backgroundColor": "Background Color",
+  "textColor": "Text Color",
+  "showStats": "Show Statistics",
+  "stats": "Statistics"
+}

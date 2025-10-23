@@ -1,0 +1,24 @@
+{
+  "name": "Banner Promo",
+  "category": "banners",
+  "type": "section",
+  "description": "Bannière promotionnelle avec badge, countdown et CTA",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["banner", "promo", "sale", "countdown", "cta"],
+  "default_props": {
+    "title": "Summer Sale 2024",
+    "subtitle": "Limited Time Offer",
+    "description": "Get up to 50% off on selected items. Don't miss out!",
+    "ctaText": "Shop Now",
+    "ctaLink": "#shop",
+    "backgroundColor": "#3b82f6",
+    "textColor": "#ffffff",
+    "badgeText": "50% OFF",
+    "badgeColor": "#ef4444",
+    "decorated": true,
+    "showCountdown": true,
+    "countdownEndDate": "2024-12-31T23:59:59"
+  }
+}

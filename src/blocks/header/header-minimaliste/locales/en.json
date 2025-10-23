@@ -1,0 +1,50 @@
+{
+  "name": "Minimal Header",
+  "description": "A simple header with logo, navigation and CTA button",
+  "fields": {
+    "logo": {
+      "label": "Logo",
+      "text": {
+        "label": "Logo text",
+        "placeholder": "Your brand name"
+      },
+      "image": {
+        "label": "Logo image",
+        "placeholder": "Image URL"
+      }
+    },
+    "navigation": {
+      "label": "Navigation",
+      "item": {
+        "label": {
+          "label": "Label",
+          "placeholder": "Home"
+        },
+        "href": {
+          "label": "Link",
+          "placeholder": "#"
+        }
+      }
+    },
+    "ctaButton": {
+      "label": "CTA Button",
+      "text": {
+        "label": "Text",
+        "placeholder": "Sign In"
+      },
+      "href": {
+        "label": "Link",
+        "placeholder": "#"
+      }
+    },
+    "backgroundColor": {
+      "label": "Background color"
+    },
+    "textColor": {
+      "label": "Text color"
+    },
+    "sticky": {
+      "label": "Sticky header on scroll"
+    }
+  }
+}

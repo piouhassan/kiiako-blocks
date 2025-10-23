@@ -1,0 +1,57 @@
+{
+  "name": "Simple Footer",
+  "description": "A simple footer with logo, links and social media",
+  "fields": {
+    "logo": {
+      "label": "Logo",
+      "text": {
+        "label": "Logo text",
+        "placeholder": "Your brand name"
+      },
+      "image": {
+        "label": "Logo image",
+        "placeholder": "Image URL"
+      }
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Your company description..."
+    },
+    "links": {
+      "label": "Quick links",
+      "item": {
+        "label": {
+          "label": "Label",
+          "placeholder": "About"
+        },
+        "href": {
+          "label": "Link",
+          "placeholder": "#"
+        }
+      }
+    },
+    "socialLinks": {
+      "label": "Social media",
+      "item": {
+        "platform": {
+          "label": "Platform",
+          "placeholder": "Facebook"
+        },
+        "href": {
+          "label": "Link",
+          "placeholder": "https://facebook.com/..."
+        }
+      }
+    },
+    "copyright": {
+      "label": "Copyright",
+      "placeholder": "© 2024 Your Company. All rights reserved."
+    },
+    "backgroundColor": {
+      "label": "Background color"
+    },
+    "textColor": {
+      "label": "Text color"
+    }
+  }
+}

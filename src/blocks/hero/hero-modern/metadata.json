@@ -1,0 +1,39 @@
+{
+  "name": "Hero Modern",
+  "category": "hero",
+  "type": "section",
+  "description": "Hero moderne avec animations, badge, features, stats et image",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["hero", "modern", "animated", "landing", "stats"],
+  "default_props": {
+    "badge": "🚀 New Release 2024",
+    "title": "Transform Your Business",
+    "subtitle": "Next Generation Platform",
+    "description": "Powerful tools and features to help you create stunning websites and applications that convert. Built with modern technology and designed for scale.",
+    "primaryCta": {
+      "text": "Get Started Free",
+      "link": "#start"
+    },
+    "secondaryCta": {
+      "text": "Watch Demo",
+      "link": "#demo"
+    },
+    "heroImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&h=600&fit=crop",
+    "features": [
+      { "icon": "✓", "text": "No credit card required" },
+      { "icon": "✓", "text": "Free 14-day trial" },
+      { "icon": "✓", "text": "Cancel anytime" }
+    ],
+    "backgroundColor": "#0f172a",
+    "textColor": "#ffffff",
+    "showStats": true,
+    "stats": [
+      { "value": "50K+", "label": "Active Users" },
+      { "value": "99.9%", "label": "Uptime" },
+      { "value": "4.9/5", "label": "User Rating" },
+      { "value": "24/7", "label": "Support" }
+    ]
+  }
+}

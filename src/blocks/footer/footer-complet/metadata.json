@@ -1,0 +1,71 @@
+{
+  "name": "Footer Complet",
+  "category": "footer",
+  "type": "section",
+  "description": "Footer complet avec colonnes de liens, newsletter et réseaux sociaux",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["footer", "navigation", "newsletter", "social"],
+  "default_props": {
+    "logo": "",
+    "companyName": "YourBrand",
+    "tagline": "Building better experiences",
+    "description": "We help businesses grow with innovative digital solutions and exceptional customer service.",
+    "columns": [
+      {
+        "title": "Products",
+        "links": [
+          { "label": "Features", "url": "#features" },
+          { "label": "Pricing", "url": "#pricing" },
+          { "label": "Security", "url": "#security" },
+          { "label": "Enterprise", "url": "#enterprise" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "url": "#about" },
+          { "label": "Careers", "url": "#careers" },
+          { "label": "Blog", "url": "#blog" },
+          { "label": "Press", "url": "#press" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Documentation", "url": "#docs" },
+          { "label": "Help Center", "url": "#help" },
+          { "label": "Community", "url": "#community" },
+          { "label": "API", "url": "#api" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy", "url": "#privacy" },
+          { "label": "Terms", "url": "#terms" },
+          { "label": "Cookies", "url": "#cookies" },
+          { "label": "Licenses", "url": "#licenses" }
+        ]
+      }
+    ],
+    "showNewsletter": true,
+    "newsletterTitle": "Subscribe to our newsletter",
+    "newsletterDescription": "Get the latest updates and news delivered to your inbox.",
+    "socialLinks": [
+      { "platform": "Facebook", "url": "https://facebook.com", "icon": "facebook" },
+      { "platform": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
+      { "platform": "Instagram", "url": "https://instagram.com", "icon": "instagram" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" }
+    ],
+    "bottomLinks": [
+      { "label": "Privacy Policy", "url": "#privacy" },
+      { "label": "Terms of Service", "url": "#terms" }
+    ],
+    "copyright": "© 2025 YourBrand. All rights reserved.",
+    "backgroundColor": "#1f2937",
+    "textColor": "#ffffff",
+    "linkHoverColor": "#60a5fa"
+  }
+}

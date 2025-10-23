@@ -1,0 +1,30 @@
+{
+  "name": "Footer Simple",
+  "category": "footer",
+  "type": "section",
+  "description": "Un pied de page simple avec logo, liens et réseaux sociaux",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["footer", "simple", "social"],
+  "default_props": {
+    "logo": {
+      "text": "Brand"
+    },
+    "description": "Your trusted e-commerce platform for quality products and excellent service.",
+    "links": [
+      { "label": "About Us", "href": "#" },
+      { "label": "Contact", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms of Service", "href": "#" }
+    ],
+    "socialLinks": [
+      { "platform": "Facebook", "href": "#" },
+      { "platform": "Twitter", "href": "#" },
+      { "platform": "Instagram", "href": "#" }
+    ],
+    "copyright": "© 2024 Your Company. All rights reserved.",
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000"
+  }
+}

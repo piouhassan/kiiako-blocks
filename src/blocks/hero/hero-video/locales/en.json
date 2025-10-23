@@ -1,0 +1,15 @@
+{
+  "heading": "Heading",
+  "subheading": "Subheading",
+  "videoUrl": "Video URL",
+  "primaryButton": "Primary Button",
+  "secondaryButton": "Secondary Button",
+  "overlayOpacity": "Overlay Opacity",
+  "overlayColor": "Overlay Color",
+  "textColor": "Text Color",
+  "textAlign": "Text Alignment",
+  "minHeight": "Minimum Height",
+  "autoplay": "Autoplay",
+  "loop": "Loop",
+  "muted": "Muted"
+}

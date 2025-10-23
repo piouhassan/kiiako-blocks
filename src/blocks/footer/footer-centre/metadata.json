@@ -1,0 +1,30 @@
+{
+  "name": "Footer Centré",
+  "category": "footer",
+  "type": "section",
+  "description": "Footer centré minimaliste",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["footer", "centered", "minimal"],
+  "default_props": {
+    "companyName": "YourBrand",
+    "description": "Building better digital experiences for everyone",
+    "links": [
+      { "label": "About", "url": "#about" },
+      { "label": "Services", "url": "#services" },
+      { "label": "Contact", "url": "#contact" },
+      { "label": "Privacy", "url": "#privacy" },
+      { "label": "Terms", "url": "#terms" }
+    ],
+    "socialLinks": [
+      { "platform": "Facebook", "url": "https://facebook.com" },
+      { "platform": "Twitter", "url": "https://twitter.com" },
+      { "platform": "Instagram", "url": "https://instagram.com" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com" }
+    ],
+    "copyright": "© 2025 YourBrand. All rights reserved.",
+    "backgroundColor": "#1f2937",
+    "textColor": "#ffffff"
+  }
+}

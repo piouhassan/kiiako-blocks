@@ -1,0 +1,45 @@
+{
+  "name": "Product Showcase",
+  "category": "products",
+  "type": "section",
+  "description": "Grille de produits avec images, prix, badges et notes",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["products", "grid", "shop", "ecommerce"],
+  "default_props": {
+    "title": "Best Sellers",
+    "subtitle": "Discover our most popular products loved by customers",
+    "products": [
+      {
+        "name": "Premium Headphones",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+        "price": "$199",
+        "originalPrice": "$299",
+        "badge": "30% OFF",
+        "rating": 5,
+        "link": "#"
+      },
+      {
+        "name": "Smart Watch",
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+        "price": "$349",
+        "rating": 4,
+        "link": "#"
+      },
+      {
+        "name": "Wireless Speaker",
+        "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop",
+        "price": "$129",
+        "originalPrice": "$179",
+        "badge": "SALE",
+        "rating": 5,
+        "link": "#"
+      }
+    ],
+    "columns": 3,
+    "showViewAll": true,
+    "viewAllText": "View All Products",
+    "viewAllLink": "#shop"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Hero Video",
+  "category": "hero",
+  "type": "section",
+  "description": "Hero section avec vidéo en arrière-plan, supporte MP4, YouTube et Vimeo",
+  "version": "1.1.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["hero", "video", "banner", "fullscreen", "youtube", "vimeo"],
+  "default_props": {
+    "heading": "Welcome to Our Platform",
+    "subheading": "Transform your business with innovative solutions that drive growth and success",
+    "videoUrl": "https://www.youtube.com/watch?v=L3y9-Sztf7o&list=RDL3y9-Sztf7o",
+    "primaryButton": {
+      "text": "Get Started",
+      "link": "#get-started",
+      "variant": "primary"
+    },
+    "secondaryButton": {
+      "text": "Learn More",
+      "link": "#learn-more",
+      "variant": "outline"
+    },
+    "overlayOpacity": 0.5,
+    "overlayColor": "#000000",
+    "textColor": "#ffffff",
+    "textAlign": "center",
+    "minHeight": "600px",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+  }
+}

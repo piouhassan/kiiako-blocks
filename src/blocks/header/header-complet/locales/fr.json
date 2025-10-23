@@ -1,0 +1,12 @@
+{
+  "logo": "Logo",
+  "navigation": "Navigation",
+  "showSearch": "Afficher la recherche",
+  "showCart": "Afficher le panier",
+  "showAccount": "Afficher le compte",
+  "backgroundColor": "Couleur de fond",
+  "textColor": "Couleur du texte",
+  "sticky": "En-tête fixe",
+  "showTopBar": "Afficher la barre supérieure",
+  "topBarMessage": "Message de la barre supérieure"
+}

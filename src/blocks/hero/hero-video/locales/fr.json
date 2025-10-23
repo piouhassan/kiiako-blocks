@@ -1,0 +1,15 @@
+{
+  "heading": "Titre principal",
+  "subheading": "Sous-titre",
+  "videoUrl": "URL de la vidéo",
+  "primaryButton": "Bouton principal",
+  "secondaryButton": "Bouton secondaire",
+  "overlayOpacity": "Opacité du calque",
+  "overlayColor": "Couleur du calque",
+  "textColor": "Couleur du texte",
+  "textAlign": "Alignement du texte",
+  "minHeight": "Hauteur minimale",
+  "autoplay": "Lecture automatique",
+  "loop": "Boucle",
+  "muted": "Muet"
+}

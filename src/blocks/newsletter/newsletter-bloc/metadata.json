@@ -1,0 +1,23 @@
+{
+  "name": "Newsletter Bloc",
+  "category": "newsletter",
+  "type": "section",
+  "description": "Section newsletter prominente avec layout centré ou split",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["newsletter", "email", "subscription", "cta"],
+  "default_props": {
+    "title": "Stay in the Loop",
+    "subtitle": "Get the latest updates delivered to your inbox",
+    "description": "Join thousands of subscribers and never miss out on our latest news, tips, and exclusive offers.",
+    "placeholderText": "Enter your email address",
+    "buttonText": "Subscribe Now",
+    "showPrivacyNote": true,
+    "privacyNote": "We respect your privacy. Unsubscribe at any time.",
+    "backgroundColor": "#3b82f6",
+    "textColor": "#ffffff",
+    "layout": "centered",
+    "buttonVariant": "white"
+  }
+}

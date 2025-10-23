@@ -1,0 +1,30 @@
+{
+  "name": "Header Complete",
+  "category": "header",
+  "type": "section",
+  "description": "Header e-commerce complet avec barre supérieure, recherche, panier et navigation",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["header", "e-commerce", "navigation", "complete"],
+  "default_props": {
+    "logo": {
+      "text": "E-Shop"
+    },
+    "navigation": [
+      { "label": "Home", "href": "#" },
+      { "label": "Shop", "href": "#shop" },
+      { "label": "Categories", "href": "#categories" },
+      { "label": "Deals", "href": "#deals" },
+      { "label": "About", "href": "#about" }
+    ],
+    "showSearch": true,
+    "showCart": true,
+    "showAccount": true,
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000",
+    "sticky": true,
+    "showTopBar": true,
+    "topBarMessage": "Free shipping on orders over $50"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Header Minimaliste",
+  "description": "Un en-tête simple avec logo, navigation et bouton CTA",
+  "fields": {
+    "logo": {
+      "label": "Logo",
+      "text": {
+        "label": "Texte du logo",
+        "placeholder": "Nom de votre marque"
+      },
+      "image": {
+        "label": "Image du logo",
+        "placeholder": "URL de l'image"
+      }
+    },
+    "navigation": {
+      "label": "Navigation",
+      "item": {
+        "label": {
+          "label": "Libellé",
+          "placeholder": "Accueil"
+        },
+        "href": {
+          "label": "Lien",
+          "placeholder": "#"
+        }
+      }
+    },
+    "ctaButton": {
+      "label": "Bouton CTA",
+      "text": {
+        "label": "Texte",
+        "placeholder": "Se connecter"
+      },
+      "href": {
+        "label": "Lien",
+        "placeholder": "#"
+      }
+    },
+    "backgroundColor": {
+      "label": "Couleur de fond"
+    },
+    "textColor": {
+      "label": "Couleur du texte"
+    },
+    "sticky": {
+      "label": "Header fixe au scroll"
+    }
+  }
+}

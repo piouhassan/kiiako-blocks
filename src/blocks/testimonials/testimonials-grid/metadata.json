@@ -1,0 +1,44 @@
+{
+  "name": "Testimonials Grid",
+  "category": "testimonials",
+  "type": "section",
+  "description": "Grille de témoignages clients",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["testimonials", "grid", "reviews", "social-proof"],
+  "default_props": {
+    "title": "What Our Customers Say",
+    "subtitle": "Trusted by thousands of businesses worldwide",
+    "testimonials": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO",
+        "company": "TechStart",
+        "avatar": "https://images.unsplash.com/photo-1678282955808-de92256dbd59?w=600&h=600&fit=crop",
+        "rating": 5,
+        "content": "Outstanding service and support. The team went above and beyond to ensure our success."
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Marketing Director",
+        "company": "Growth Co",
+        "avatar": "https://images.unsplash.com/photo-1568235700764-3f0525203919?w=600&h=600&fit=crop",
+        "rating": 5,
+        "content": "Best investment we've made this year. Results exceeded all expectations."
+      },
+      {
+        "name": "Emma Williams",
+        "role": "Product Manager",
+        "company": "Innovation Labs",
+        "avatar": "https://images.unsplash.com/photo-1518809595274-1471d16319b7?w=600&h=600&fit=crop",
+        "rating": 4,
+        "content": "Highly recommended! Easy to use and excellent customer support."
+      }
+    ],
+    "columns": "3",
+    "showAvatar": true,
+    "backgroundColor": "#ffffff",
+    "cardBackground": "#f9fafb"
+  }
+}

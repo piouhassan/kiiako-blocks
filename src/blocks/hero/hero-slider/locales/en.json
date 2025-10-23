@@ -1,0 +1,12 @@
+{
+  "slides": "Slides",
+  "autoplay": "Autoplay",
+  "autoplayInterval": "Autoplay Interval",
+  "showNavigation": "Show Navigation",
+  "showDots": "Show Dots",
+  "overlayOpacity": "Overlay Opacity",
+  "overlayColor": "Overlay Color",
+  "textColor": "Text Color",
+  "textAlign": "Text Alignment",
+  "minHeight": "Minimum Height"
+}

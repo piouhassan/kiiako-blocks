@@ -1,0 +1,14 @@
+{
+  "title": "Titre",
+  "subtitle": "Sous-titre",
+  "description": "Description",
+  "ctaText": "Texte du bouton",
+  "ctaLink": "Lien du bouton",
+  "backgroundColor": "Couleur de fond",
+  "textColor": "Couleur du texte",
+  "badgeText": "Texte du badge",
+  "badgeColor": "Couleur du badge",
+  "decorated": "Décoré",
+  "showCountdown": "Afficher le compte à rebours",
+  "countdownEndDate": "Date de fin du compte à rebours"
+}

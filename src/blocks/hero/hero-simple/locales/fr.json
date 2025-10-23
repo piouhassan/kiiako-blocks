@@ -1,0 +1,11 @@
+{
+  "title": "Titre",
+  "subtitle": "Sous-titre",
+  "buttonText": "Texte du bouton",
+  "buttonLink": "Lien du bouton",
+  "backgroundImage": "Image de fond",
+  "textAlign": "Alignement du texte",
+  "overlayOpacity": "Opacité du calque",
+  "textColor": "Couleur du texte",
+  "minHeight": "Hauteur minimale"
+}

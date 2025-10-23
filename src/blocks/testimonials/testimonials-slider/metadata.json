@@ -1,0 +1,46 @@
+{
+  "name": "Testimonials Slider",
+  "category": "testimonials",
+  "type": "section",
+  "description": "Slider de témoignages clients avec navigation et autoplay",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["testimonials", "slider", "reviews", "social-proof"],
+  "default_props": {
+    "title": "What Our Customers Say",
+    "subtitle": "Don't just take our word for it - hear from our satisfied customers",
+    "testimonials": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO",
+        "company": "TechStart Inc",
+        "avatar": "https://images.unsplash.com/photo-1678282955808-de92256dbd59?w=600&h=600&fit=crop",
+        "rating": 5,
+        "content": "This product has completely transformed how we do business. The support team is outstanding and the features are exactly what we needed."
+      },
+      {
+        "name": "Michael Chen",
+        "role": "Marketing Director",
+        "company": "Growth Co",
+        "avatar": "https://images.unsplash.com/photo-1568235700764-3f0525203919?w=600&h=600&fit=crop",
+        "rating": 5,
+        "content": "I've tried many similar products, but this one stands out. The user interface is intuitive and the results speak for themselves."
+      },
+      {
+        "name": "Emma Williams",
+        "role": "Product Manager",
+        "company": "Innovation Labs",
+        "avatar": "https://images.unsplash.com/photo-1518809595274-1471d16319b7?w=600&h=600&fit=crop",
+        "rating": 4,
+        "content": "Great value for money. It's helped us streamline our workflow and improve team collaboration significantly."
+      }
+    ],
+    "autoplay": true,
+    "autoplayInterval": 5000,
+    "showNavigation": true,
+    "showDots": true,
+    "backgroundColor": "#f9fafb",
+    "cardBackground": "#ffffff"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Inline Newsletter",
+  "description": "Inline newsletter subscription form",
+  "fields": {
+    "title": {
+      "label": "Title",
+      "placeholder": "Stay Updated"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "Subscribe to our newsletter..."
+    },
+    "placeholder": {
+      "label": "Email field placeholder",
+      "placeholder": "Your email"
+    },
+    "buttonText": {
+      "label": "Button text",
+      "placeholder": "Subscribe"
+    },
+    "backgroundColor": {
+      "label": "Background color"
+    },
+    "textColor": {
+      "label": "Text color"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "productName": "Product Name",
+  "tagline": "Tagline",
+  "description": "Description",
+  "price": "Price",
+  "originalPrice": "Original Price",
+  "features": "Features",
+  "productImage": "Product Image",
+  "ctaText": "Button Text",
+  "ctaLink": "Button Link",
+  "secondaryCtaText": "Secondary Button Text",
+  "secondaryCtaLink": "Secondary Button Link",
+  "backgroundColor": "Background Color",
+  "imagePosition": "Image Position"
+}

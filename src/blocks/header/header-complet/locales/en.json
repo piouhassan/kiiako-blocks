@@ -1,0 +1,12 @@
+{
+  "logo": "Logo",
+  "navigation": "Navigation",
+  "showSearch": "Show Search",
+  "showCart": "Show Cart",
+  "showAccount": "Show Account",
+  "backgroundColor": "Background Color",
+  "textColor": "Text Color",
+  "sticky": "Sticky Header",
+  "showTopBar": "Show Top Bar",
+  "topBarMessage": "Top Bar Message"
+}

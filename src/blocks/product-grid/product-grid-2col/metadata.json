@@ -1,0 +1,35 @@
+{
+  "name": "Product Grid 2 Columns",
+  "category": "product-grid",
+  "type": "section",
+  "description": "Grille de produits sur 2 colonnes avec large affichage",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["products", "grid", "e-commerce", "shop", "wide"],
+  "default_props": {
+    "title": "Featured Products",
+    "subtitle": "Discover our hand-picked selection of premium products",
+    "products": [
+      {
+        "name": "Leather Backpack",
+        "category": "Fashion",
+        "price": 39.99,
+        "originalPrice": 49.99,
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop",
+        "badge": "Sale"
+      },
+      {
+        "name": "Indoor Plant",
+        "category": "Home & Garden",
+        "price": 24.99,
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=400&fit=crop"
+      }
+    ],
+    "showQuickAdd": true,
+    "showWishlist": true,
+    "showRating": true,
+    "imageAspectRatio": "portrait",
+    "backgroundColor": "#ffffff"
+  }
+}

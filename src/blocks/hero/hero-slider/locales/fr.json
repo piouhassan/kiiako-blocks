@@ -1,0 +1,12 @@
+{
+  "slides": "Diapositives",
+  "autoplay": "Lecture automatique",
+  "autoplayInterval": "Intervalle de lecture",
+  "showNavigation": "Afficher la navigation",
+  "showDots": "Afficher les points",
+  "overlayOpacity": "Opacité du calque",
+  "overlayColor": "Couleur du calque",
+  "textColor": "Couleur du texte",
+  "textAlign": "Alignement du texte",
+  "minHeight": "Hauteur minimale"
+}

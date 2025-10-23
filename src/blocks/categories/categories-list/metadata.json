@@ -1,0 +1,49 @@
+{
+  "name": "Categories List",
+  "category": "categories",
+  "type": "section",
+  "description": "Liste de catégories avec icônes et compteurs",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["categories", "list", "navigation"],
+  "default_props": {
+    "title": "Browse Categories",
+    "subtitle": "Find what you're looking for",
+    "categories": [
+      {
+        "name": "Electronics",
+        "description": "Phones, laptops, and accessories",
+        "productCount": 156,
+        "link": "#electronics"
+      },
+      {
+        "name": "Fashion & Apparel",
+        "description": "Clothing, shoes, and accessories",
+        "productCount": 243,
+        "link": "#fashion"
+      },
+      {
+        "name": "Home & Garden",
+        "description": "Furniture, decor, and tools",
+        "productCount": 189,
+        "link": "#home"
+      },
+      {
+        "name": "Sports & Outdoors",
+        "description": "Equipment and activewear",
+        "productCount": 127,
+        "link": "#sports"
+      },
+      {
+        "name": "Books & Media",
+        "description": "Books, movies, and music",
+        "productCount": 312,
+        "link": "#books"
+      }
+    ],
+    "showProductCount": true,
+    "showIcon": true,
+    "backgroundColor": "#ffffff"
+  }
+}

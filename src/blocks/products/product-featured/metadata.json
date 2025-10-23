@@ -1,0 +1,32 @@
+{
+  "name": "Product Featured",
+  "category": "products",
+  "type": "section",
+  "description": "Mise en avant d'un produit avec image, caractéristiques et CTAs",
+  "version": "1.0.0",
+  "author": "Kiiako Builder Team",
+  "preview": "./assets/preview.png",
+  "tags": ["products", "featured", "highlight", "ecommerce"],
+  "default_props": {
+    "productName": "Premium Wireless Headphones",
+    "tagline": "NEW ARRIVAL",
+    "description": "Experience exceptional sound quality with our latest premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and studio-quality audio.",
+    "price": "$299",
+    "originalPrice": "$399",
+    "features": [
+      "Active Noise Cancellation (ANC)",
+      "30-hour battery life",
+      "Premium leather ear cushions",
+      "Studio-quality audio",
+      "Bluetooth 5.0 connectivity",
+      "Foldable design with carrying case"
+    ],
+    "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
+    "ctaText": "Buy Now",
+    "ctaLink": "#buy",
+    "secondaryCtaText": "Add to Wishlist",
+    "secondaryCtaLink": "#wishlist",
+    "backgroundColor": "#f9fafb",
+    "imagePosition": "right"
+  }
+}
