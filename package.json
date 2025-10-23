@@ -1,6 +1,6 @@
 {
   "name": "@kiiako/blocks",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Pre-built blocks for Kiiako page builder",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -36,8 +36,9 @@
   "author": "Kiiako Team",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0"
+    "@kiiako/render": ">=1.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   },
   "dependencies": {
     "clsx": "^2.1.0",
